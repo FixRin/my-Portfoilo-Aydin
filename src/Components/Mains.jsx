@@ -40,7 +40,7 @@ export default function Main() {
                         </div>
                     </div>
 
-                    <img className='myPhoto' id="Photo" src="./public/assets/Chico_Lachowski.jpg" alt="my photo" />
+                    <img className='myPhoto' id="Photo" src="../public/assets/Chico_Lachowski.jpg" alt="my photo" />
                 </div>
                 <section className="container" id="Skills">
                     <h2 className="Logo">Skills</h2>
@@ -50,8 +50,8 @@ export default function Main() {
                         <i className="fa-brands fa-js"></i>
                         <i className="fa-brands fa-react"></i>
                         <i className="fa-brands fa-bootstrap"></i>
-                        <i> <img src="./public/assets/redux.png.png" alt="icon" id="redux" /></i>
-                        <i><img src="./public/assets/tailwind.png" alt="icon" id="icon2" /></i>
+                        <i> <img src="../public/assets/redux.png.png" alt="icon" id="redux" /></i>
+                        <i><img src="../public/assets/tailwind.png" alt="icon" id="icon2" /></i>
                         <i className="fa-brands fa-chrome"></i>
                         <i className="fa-brands fa-git"></i>
                         <i className="fa-brands fa-github-square"></i>
