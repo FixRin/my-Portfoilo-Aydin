@@ -1,8 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import Photo from '../../public/assets/Chico_Lachowski.jpg'
-import icon1 from '../../public/assets/redux.png.png'
-import icon2 from '../../public/assets/tailwind.png'
+import Photo from '/assets/WhatsApp Image 2024-07-26 at 13.49.52_adf1a40a.jpg'
+import icon1 from '/assets/redux.png.png'
+import icon2 from '/assets/tailwind.png'
 
 export default function Main() {    
     useGSAP(() => {
