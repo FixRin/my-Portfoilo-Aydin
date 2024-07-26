@@ -1,8 +1,9 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import Photo from '/web deeveloper/my-Portfoilo-Aydin/public/assets/Chico_Lachowski.jpg'
-import icon1 from '/web deeveloper/my-Portfoilo-Aydin/public/assets/redux.png.png'
-import icon2 from '/web deeveloper/my-Portfoilo-Aydin/public/assets/tailwind.png'
+import Photo from '../../public/assets/Chico_Lachowski.jpg'
+import icon1 from '../../public/assets/redux.png.png'
+import icon2 from '../../public/assets/tailwind.png'
+
 export default function Main() {    
     useGSAP(() => {
         gsap.fromTo('#Photo', {

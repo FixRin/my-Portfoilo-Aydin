@@ -1,6 +1,19 @@
 import { projects } from "../Constants"
+import gsap from "gsap"
+import { useGSAP } from "@gsap/react"
+import { ScrollTrigger } from "gsap/all"
+gsap.registerPlugin(ScrollTrigger)
 export default function Projects() {
+
+    useGSAP(() => {
+        gsap.from('#Projects', {
+                scrollTrigger:'#Projects',
+                y:180,
+                opacity:0
+        }, )
+    }, [])
     return (
+
         <section id="Projects">
             <h1 className="Logo">Projects</h1>
             {projects.map((project) => (

@@ -3,10 +3,21 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 import useAlert from "../Hooks/useAlert";
 import Alert from "./Alert";
-
+import gsap from "gsap"
+import { useGSAP } from "@gsap/react"
+import { ScrollTrigger } from "gsap/all"
+gsap.registerPlugin(ScrollTrigger)
 
 
 const Contact = () => {
+  useGSAP(() => {
+    gsap.from('#contact', {
+            scrollTrigger:'#contact',
+            y:250,
+            opacity:0
+    }, )
+}, [])
+
   const formRef = useRef();
   const [form, setForm] = useState({ from_name: "", from_email: "", message: "" });
   const { alert, showAlert, hideAlert } = useAlert();
