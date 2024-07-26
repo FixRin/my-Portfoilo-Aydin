@@ -33,3 +33,4 @@ export const projects = [
         demo: 'https://nikeproject1.netlify.app/',
     }
 ]
+
