@@ -201,13 +201,14 @@ a{
   font-size: 26px;
 }
 .myPhoto{
-  width: 26%;
+  width: 29%;
   display: inline-block;
-  padding-top: 4rem;
+  padding-top: rem;
   height: 330px;
   margin-left: 5em;
   margin-top: 1em;
   border-radius: 50%;
+  border: 2px solid black;
 }
 .aboutContainer{
   display: flex;

@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import Photo from '/assets/WhatsApp Image 2024-07-26 at 13.49.52_adf1a40a.jpg'
+import Photo from '/assets/photo1.png'
 import icon1 from '/assets/redux.png.png'
 import icon2 from '/assets/tailwind.png'
 
@@ -40,7 +40,9 @@ export default function Main() {
                             </p>
                             <p>
                                 My expertise lies in crafting dynamic, interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in calloborating with cross-functional teams to produce outstanding web applications.
+                              
                             </p>
+                            <h2 className="Logo">and you can learn my job past from my cv</h2>
                         </div>
                     </div>
 
@@ -59,6 +61,15 @@ export default function Main() {
                         <i className="fa-brands fa-chrome"></i>
                         <i className="fa-brands fa-git"></i>
                         <i className="fa-brands fa-github-square"></i>
+                        <i class="fa-brands fa-wordpress"></i>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h2 className="Logo">Work experience</h2>
+                        <p>
+                        
+                        </p>
                     </div>
                 </section>
             </section>
