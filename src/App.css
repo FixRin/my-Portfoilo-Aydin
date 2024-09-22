@@ -203,11 +203,10 @@ a{
 .myPhoto{
   width: 29%;
   display: inline-block;
-  padding-top: rem;
   height: 330px;
   margin-left: 5em;
   margin-top: 1em;
-  border-radius: 50%;
+  border-radius: 60%;    
   border: 2px solid black;
 }
 .aboutContainer{

@@ -1,8 +1,10 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import Photo from '/assets/photo1.png'
+import Photo from '/assets/Untitled design (3).png'
 import icon1 from '/assets/redux.png.png'
 import icon2 from '/assets/tailwind.png'
+import icon3 from '/assets/nextjs-icon-2048x1234-pqycciiu.png'
+import icon4 from '/assets/typescript-icon-512x512-xkd43jie.png'
 
 export default function Main() {    
     useGSAP(() => {
@@ -33,9 +35,9 @@ export default function Main() {
                             <h2 className="First">Hi! I'm Front-end React
                                 Developer.</h2>
                             <p>
-                                As a junior Front-end Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React,
-                                Redux, Tailwind, Bootstrap, Basics of UI/UX design
-                                responsive websites,Git and GitHub,
+                                As a junior Front-end Developer, I possess an impressive arsenal of skills in HTML5, CSS3, JavaScript(ES6), React,
+                                Redux, Tailwind.css, Bootstrap, Basics of UI/UX design, 
+                                responsive websites, Git, Next.js, TypeScript, 
                                 Web.
                             </p>
                             <p>
@@ -62,16 +64,10 @@ export default function Main() {
                         <i className="fa-brands fa-git"></i>
                         <i className="fa-brands fa-github-square"></i>
                         <i class="fa-brands fa-wordpress"></i>
+                        <i><img src={icon3} alt="icon" id="icon2" /></i>
+                        <i><img src={icon4} alt="icon" id="redux" /></i>
                     </div>
-                </section>
-                <section>
-                    <div>
-                        <h2 className="Logo">Work experience</h2>
-                        <p>
-                        
-                        </p>
-                    </div>
-                </section>
+                </section>  
             </section>
         </main>
     )
